@@ -3,18 +3,18 @@ document.addEventListener("DOMContentLoaded", function () {
       el: '#app',
       data: {
         greekLetters: {
-          'α': [1, 3],    // 'α' -  kabel 1 i kabel 3
-          'β': [4, 2],    // 'β' -  kabel 4 i kabel 2
-          'γ': [3, 1],    // 'γ' -  kabel 3 i kabel 1
-          'δ': [2, 4],    // 'δ' -  kabel 2 i kabel 4
-          'ε': [1, 4],    // 'ε' -  kabel 1 i kabel 4
-          'ζ': [3, 2],    // 'ζ' -  kabel 3 i kabel 2
-          'η': [4, 3],    // 'η' -  kabel 4 i kabel 3
-          'θ': [2, 1],    // 'θ' -  kabel 2 i kabel 1
-          'ι': [1, 2],    // 'ι' -  kabel 1 i kabel 2
-          'κ': [3, 4],    // 'κ' -  kabel 3 i kabel 4
-          'λ': [2, 3],    // 'λ' -  kabel 2 i kabel 3
-          'μ': [4, 1],    // 'μ' -  kabel 4 i kabel 1
+          'α': [1, 3],    
+          'β': [4, 2],    
+          'γ': [3, 1],  
+          'δ': [2, 4],    
+          'ε': [1, 4],   
+          'ζ': [3, 2],    
+          'η': [4, 3],    
+          'θ': [2, 1],  
+          'ι': [1, 2],   
+          'κ': [3, 4],   
+          'λ': [2, 3],   
+          'μ': [4, 1],   
         },
         randomGreekLetter: '',
         showGreekLetter: false,
