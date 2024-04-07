@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Cable</title>
+</head>
+<body>
+    <section id="app" class="hidden">
+        <div v-if="showGreekLetter" v-show="showElements" class="symbol">
+            <p>{{ randomGreekLetter }}</p>
+        </div>
+        <div class="element" v-show="!showElements">
+          <div class="top">
+            <div class="blockTop">
+              <div class="kwadrat"></div>
+            </div>
+            <div class="cableMain first" @click="changeColor" id="cable1"></div>
+          </div>
+          <div class="bottom">
+            <div class="cableMain first" @click="changeColor" id="cable1"></div>
+            <div class="blockBottom">
+              <div class="kwadrat"></div>
+            </div>
+          </div>
+        </div>
+        <div class="element" v-show="!showElements">
+            <div class="top">
+              <div class="blockTop">
+                <div class="kwadrat"></div>
+              </div>
+              <div class="cableMain second" @click="changeColor" id="cable2"></div>
+            </div>
+            <div class="bottom">
+              <div class="cableMain second" @click="changeColor" id="cable2"></div>
+              <div class="blockBottom">
+                <div class="kwadrat"></div>
+              </div>
+            </div>
+          </div>
+          <div class="element" v-show="!showElements">
+            <div class="top">
+              <div class="blockTop">
+                <div class="kwadrat"></div>
+              </div>
+              <div class="cableMain third" @click="changeColor" id="cable3"></div>
+            </div>
+            <div class="bottom">
+              <div class="cableMain third" @click="changeColor" id="cable3"></div>
+              <div class="blockBottom">
+                <div class="kwadrat"></div>
+              </div>
+            </div>
+          </div>
+          <div class="element" v-show="!showElements">
+            <div class="top">
+              <div class="blockTop">
+                <div class="kwadrat"></div>
+              </div>
+              <div class="cableMain fourth" @click="changeColor" id="cable4"></div>
+            </div>
+            <div class="bottom">
+              <div class="cableMain fourth" @click="changeColor" id="cable4"></div>
+              <div class="blockBottom">
+                <div class="kwadrat"></div>
+              </div>
+            </div>
+          </div>
+      </section>
+<script src="script.js"></script>
+</body>
+</html>

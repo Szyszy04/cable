@@ -1,0 +1,12 @@
+'α' -  kabel 1 i kabel 3
+'β' -  kabel 4 i kabel 2
+'γ' -  kabel 3 i kabel 1
+'δ' -  kabel 2 i kabel 4
+'ε' -  kabel 1 i kabel 4
+'ζ' -  kabel 3 i kabel 2
+'η' -  kabel 4 i kabel 3
+'θ' -  kabel 2 i kabel 1
+'ι' -  kabel 1 i kabel 2
+'κ' -  kabel 3 i kabel 4
+'λ' -  kabel 2 i kabel 3
+'μ' -  kabel 4 i kabel 1
